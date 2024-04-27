@@ -254,11 +254,17 @@ ul, ol{
     row-gap: var(--indent-row, 48px);
     column-gap: var(--indent-col, 24px);
 }
+
 .rows-item {
+    position: relative;
     box-sizing: border-box;
-    outline: 1px solid var(--cornflower);
-    outline-offset: -1px;
+    border: -1px solid var(--cornflower);
     flex-basis: calc((100% - (2 * var(--indent-col, 24px)) - 2px) / 3);
+}
+.rows-box{
+    box-sizing: border-box;
+    border: 1px solid var(--cornflower);
+    border-top: none;
 }
 .rows-item-title{
     text-align: left;
