@@ -96,7 +96,7 @@ ul, ol{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--navy-blue);
-        margin-right: auto;
+        margin-right: 76px;
 }
 .logo-footer {
     color: var(--cloud);
